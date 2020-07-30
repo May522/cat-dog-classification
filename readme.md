@@ -10,22 +10,23 @@
         pytorch: 1.2.0
 
 ### 文件结构为：
-train
-copy
-    -train
-        -cats
-        -dogs
-    -val
-        -cats
-        -dogs
-test
-数据集预处理.ipynb
-模型训练.ipynb
-多模型融合.ipynb
+- train
+- copy
+    - train
+        - cats
+        - dogs
+    - val
+        - cats
+        - dogs
+- test
+- 数据集预处理.ipynb
+- 模型训练.ipynb
+- 多模型融合.ipynb
 
 
 ### 数据集预处理.ipynb
 内容：数据集处理、计算训练集的均值和方差
+
 标签值  猫：0  狗：1
 
 ### 模型训练.ipynb
